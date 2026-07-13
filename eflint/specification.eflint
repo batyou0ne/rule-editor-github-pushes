@@ -1,18 +1,17 @@
-Fact [Company A] Identified by string.
-Fact [Company B] Identified by string.
-Fact [Company C] Identified by string.
-Fact [VFL controller] Identified by string.
+Fact [ landlords] Identified by string.
+Fact [Authority (minister)] Identified by string.
 
-Bool [VFL training].
-Bool [informed consent].
-Bool [Differential Privacy].
-Bool [anonymization].
-Bool [synthetic data generation].
-Bool [access control].
+Bool [€125,000 or more].
+Bool [above €25,000].
+Bool [ under €125,000].
+Bool [ under  €25,000].
+Bool [(old regulation) old SVOH, the application].
+Bool [(New regulation) new adjustment ].
+Bool [process the application].
+Bool [after the activities had been carried out].
+Bool [submitted before the activities took place].
 
 
-Act [request participation VFL training Company A VFL controller] Actor [Company A] Recipient [VFL controller] Holds when ([VFL training] && ([informed consent] && [Differential Privacy])) .
+Act [request subsidy (old regulation) old SVOH, the application  landlords Authority (minister)] Actor [ landlords] Recipient [Authority (minister)] Holds when ([(old regulation) old SVOH, the application] && ([€125,000 or more] && [submitted before the activities took place] || [ under €125,000] && [after the activities had been carried out])) Creates [process the application] .
 
-Act [request participation VFL training Company B VFL controller] Actor [Company B] Recipient [VFL controller] Holds when ([VFL training] && ([informed consent] && ([anonymization] || [synthetic data generation]))) .
-
-Act [request participation VFL training Company C VFL controller] Actor [Company C] Recipient [VFL controller] Holds when ([VFL training] && ([informed consent] && [access control] && ([Differential Privacy] || [anonymization]))) .
+Act [request subsidy (New regulation) new adjustment   landlords Authority (minister)] Actor [ landlords] Recipient [Authority (minister)] Holds when ([(New regulation) new adjustment ] && ([submitted before the activities took place] && [above €25,000] || [ under  €25,000] && [after the activities had been carried out])) Creates [process the application] .
