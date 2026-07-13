@@ -1,0 +1,18 @@
+Fact [Company A] Identified by string.
+Fact [Company B] Identified by string.
+Fact [Company C] Identified by string.
+Fact [VFL controller] Identified by string.
+
+Bool [VFL training].
+Bool [informed consent].
+Bool [Differential Privacy].
+Bool [anonymization].
+Bool [synthetic data generation].
+Bool [access control].
+
+
+Act [request participation VFL training Company A VFL controller] Actor [Company A] Recipient [VFL controller] Holds when ([VFL training] && ([informed consent] && [Differential Privacy])) .
+
+Act [request participation VFL training Company B VFL controller] Actor [Company B] Recipient [VFL controller] Holds when ([VFL training] && ([informed consent] && ([anonymization] || [synthetic data generation]))) .
+
+Act [request participation VFL training Company C VFL controller] Actor [Company C] Recipient [VFL controller] Holds when ([VFL training] && ([informed consent] && [access control] && ([Differential Privacy] || [anonymization]))) .
