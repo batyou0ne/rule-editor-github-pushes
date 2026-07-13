@@ -1,0 +1,355 @@
+[
+  {
+    "id": "a6366f78-524d-47cb-9cad-c65e82971ffb",
+    "label": "Company A",
+    "fact": "Company A",
+    "typeId": "fact",
+    "subTypeIds": [
+      "agent"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "24db19b5-5b70-477b-ac97-ae7d1a4b15d1",
+    "label": "Company B",
+    "fact": "Company B",
+    "typeId": "fact",
+    "subTypeIds": [
+      "agent"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "c80b6668-82b5-4b6f-92ce-69b9f2370040",
+    "label": "Company C",
+    "fact": "Company C",
+    "typeId": "fact",
+    "subTypeIds": [
+      "agent"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "8774ea8a-6caf-4757-9e8b-93fef2c4d642",
+    "label": "VFL controller",
+    "fact": "General Provisions for the VFL Process",
+    "typeId": "fact",
+    "subTypeIds": [
+      "agent"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "3e283454-4728-4756-bfd3-9a8d52aa842b",
+    "label": "request participation",
+    "fact": "All participating entities shall adhere to a shared governance framework ensuring that the Vertical Federated Learning (VFL)",
+    "typeId": "fact",
+    "subTypeIds": [
+      "action"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "b2d15a50-9693-49bc-974f-d8e58960cab3",
+    "label": "VFL training",
+    "fact": "Vertical Federated Learning (VFL) process is conducted in a secure, privacy-preserving, and compliant manner. Participation is contingent upon the following conditions:",
+    "typeId": "fact",
+    "subTypeIds": [
+      "object"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "5e7d800e-9071-4134-9d90-20d1d5c09852",
+    "typeId": "act",
+    "label": "request participation VFL training Company A VFL controller",
+    "act": "request participation VFL training Company A VFL controller",
+    "actionId": "3e283454-4728-4756-bfd3-9a8d52aa842b",
+    "actorId": "a6366f78-524d-47cb-9cad-c65e82971ffb",
+    "objectId": "b2d15a50-9693-49bc-974f-d8e58960cab3",
+    "precondition": {
+      "isNegated": false,
+      "children": [
+        {
+          "frame": "558ffda4-52d4-4f7d-806c-b288122d46de",
+          "isNegated": false,
+          "children": [],
+          "operatorToJoinChildren": null
+        },
+        {
+          "frame": "35ed68ef-e8f8-4db4-8da0-6d69a9fa931a",
+          "isNegated": false,
+          "children": [],
+          "operatorToJoinChildren": null
+        }
+      ],
+      "operatorToJoinChildren": "and"
+    },
+    "recipientId": "8774ea8a-6caf-4757-9e8b-93fef2c4d642",
+    "creates": [],
+    "terminates": [],
+    "comments": [],
+    "sourceSentences": [
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000H"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000G"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000E"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000D"
+      }
+    ]
+  },
+  {
+    "id": "558ffda4-52d4-4f7d-806c-b288122d46de",
+    "label": "informed consent",
+    "fact": "informed consent",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "35ed68ef-e8f8-4db4-8da0-6d69a9fa931a",
+    "label": "Differential Privacy",
+    "fact": "Differential Privacy",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "30cee723-0e4a-4bac-8a21-a20cef26d9fe",
+    "label": "anonymization",
+    "fact": "anonymization",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "ee13a294-b897-496b-9a90-04a389b918cd",
+    "label": "synthetic data generation",
+    "fact": "synthetic data generation",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "8e59e1e0-5076-44fc-bffe-f66c8e346d32",
+    "label": "access control",
+    "fact": "access control",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": "and"
+    }
+  },
+  {
+    "id": "9df8a5c9-a6aa-4b15-a6b3-9d823d08149f",
+    "typeId": "act",
+    "label": "request participation VFL training Company B VFL controller",
+    "act": "request participation VFL training Company B VFL controller",
+    "actionId": "3e283454-4728-4756-bfd3-9a8d52aa842b",
+    "actorId": "24db19b5-5b70-477b-ac97-ae7d1a4b15d1",
+    "objectId": "b2d15a50-9693-49bc-974f-d8e58960cab3",
+    "precondition": {
+      "isNegated": false,
+      "children": [
+        {
+          "frame": "558ffda4-52d4-4f7d-806c-b288122d46de",
+          "isNegated": false,
+          "children": [],
+          "operatorToJoinChildren": null
+        },
+        {
+          "isNegated": false,
+          "children": [
+            {
+              "frame": "30cee723-0e4a-4bac-8a21-a20cef26d9fe",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            },
+            {
+              "frame": "ee13a294-b897-496b-9a90-04a389b918cd",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            }
+          ],
+          "operatorToJoinChildren": "or"
+        }
+      ],
+      "operatorToJoinChildren": "and"
+    },
+    "recipientId": "8774ea8a-6caf-4757-9e8b-93fef2c4d642",
+    "creates": [],
+    "terminates": [],
+    "comments": [],
+    "sourceSentences": [
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000H"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000E"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000J"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000D"
+      }
+    ]
+  },
+  {
+    "id": "364ace6b-4bf3-4c1f-812d-9ce3d68a0790",
+    "typeId": "act",
+    "label": "request participation VFL training Company C VFL controller",
+    "act": "request participation VFL training Company C VFL controller",
+    "actionId": "3e283454-4728-4756-bfd3-9a8d52aa842b",
+    "actorId": "c80b6668-82b5-4b6f-92ce-69b9f2370040",
+    "objectId": "b2d15a50-9693-49bc-974f-d8e58960cab3",
+    "precondition": {
+      "isNegated": false,
+      "children": [
+        {
+          "frame": "558ffda4-52d4-4f7d-806c-b288122d46de",
+          "isNegated": false,
+          "children": [],
+          "operatorToJoinChildren": null
+        },
+        {
+          "frame": "8e59e1e0-5076-44fc-bffe-f66c8e346d32",
+          "isNegated": false,
+          "children": [],
+          "operatorToJoinChildren": null
+        },
+        {
+          "isNegated": false,
+          "children": [
+            {
+              "frame": "35ed68ef-e8f8-4db4-8da0-6d69a9fa931a",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            },
+            {
+              "frame": "30cee723-0e4a-4bac-8a21-a20cef26d9fe",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            }
+          ],
+          "operatorToJoinChildren": "or"
+        }
+      ],
+      "operatorToJoinChildren": "and"
+    },
+    "recipientId": "8774ea8a-6caf-4757-9e8b-93fef2c4d642",
+    "creates": [],
+    "terminates": [],
+    "comments": [],
+    "sourceSentences": [
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000N"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000E"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000M"
+      },
+      {
+        "documentId": "http://choppr.app/decompositions/5e7350e1-56bd-4d49-92d4-2fffc405c85f/",
+        "sentenceId": "000D"
+      }
+    ]
+  }
+]
