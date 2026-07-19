@@ -1,6 +1,6 @@
 # renovation rentals demo
 
-> Exported from FLINT Rule Editor on 7/14/2026
+> Exported from FLINT Rule Editor on 7/19/2026
 
 ## Structure
 - `metadata.json` — task metadata
