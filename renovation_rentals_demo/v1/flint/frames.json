@@ -1,0 +1,308 @@
+[
+  {
+    "id": "135e958b-6cff-4804-a4a3-6859cd0352d2",
+    "label": " landlords",
+    "fact": " landlords",
+    "typeId": "fact",
+    "subTypeIds": [
+      "agent"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "11775f00-2c8e-4fd4-813f-f105c489d3fa",
+    "label": "€125,000 or more",
+    "fact": "€125,000 or more",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "a49ff0b8-c16e-4cc0-88bf-2a6b11f59c1f",
+    "label": "above €25,000",
+    "fact": "above €25,000",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "82f22e30-a2e8-4645-ab9a-6ae2adacddae",
+    "label": " under €125,000",
+    "fact": " under €125,000",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "fa2bbb4e-205e-4a55-916e-24dfe629f5ca",
+    "label": " under  €25,000",
+    "fact": " limit to €25,000",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "0049e22a-b024-42bb-af22-c8ada9fb3d03",
+    "label": "Authority (minister)",
+    "typeId": "fact",
+    "subTypeIds": [
+      "agent"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "95439428-e56b-4cf9-a982-1a19f86e2ef5",
+    "label": "(old regulation) old SVOH, the application",
+    "fact": "old SVOH, the application",
+    "typeId": "fact",
+    "subTypeIds": [
+      "object"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "3a6ffe09-a1d9-426e-bd02-68a124d64d63",
+    "label": "(New regulation) new adjustment ",
+    "fact": "new adjustment ",
+    "typeId": "fact",
+    "subTypeIds": [
+      "object"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "5ca03be4-aefe-4f4c-884b-c14c31ea8436",
+    "label": "request subsidy",
+    "fact": "requested ",
+    "typeId": "fact",
+    "subTypeIds": [
+      "action"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "b9d874ef-b2e1-4bb5-9f5f-f9fb4f83e085",
+    "label": "process the application",
+    "typeId": "fact",
+    "subTypeIds": [
+      "duty"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "7e41c6d6-4786-4e5b-8fad-04cf081a1593",
+    "label": "after the activities had been carried out",
+    "fact": "after the activities had been carried out",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "76420496-5d20-4774-9cf0-6d2a347d8872",
+    "label": "submitted before the activities took place",
+    "fact": "submitted before the activities took place",
+    "typeId": "fact",
+    "subTypeIds": [
+      "condition"
+    ],
+    "comments": [],
+    "isComplex": true,
+    "subdivision": {
+      "isNegated": false,
+      "children": [],
+      "operatorToJoinChildren": null
+    }
+  },
+  {
+    "id": "18d945ea-d419-400f-a494-20e9c343fbb3",
+    "typeId": "act",
+    "label": "request subsidy (old regulation) old SVOH, the application  landlords Authority (minister)",
+    "act": "request subsidy (old regulation) old SVOH, the application  landlords Authority (minister)",
+    "actionId": "5ca03be4-aefe-4f4c-884b-c14c31ea8436",
+    "actorId": "135e958b-6cff-4804-a4a3-6859cd0352d2",
+    "objectId": "95439428-e56b-4cf9-a982-1a19f86e2ef5",
+    "precondition": {
+      "isNegated": false,
+      "children": [
+        {
+          "isNegated": false,
+          "children": [
+            {
+              "frame": "11775f00-2c8e-4fd4-813f-f105c489d3fa",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            },
+            {
+              "frame": "76420496-5d20-4774-9cf0-6d2a347d8872",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            }
+          ],
+          "operatorToJoinChildren": "and"
+        },
+        {
+          "isNegated": false,
+          "children": [
+            {
+              "frame": "82f22e30-a2e8-4645-ab9a-6ae2adacddae",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            },
+            {
+              "frame": "7e41c6d6-4786-4e5b-8fad-04cf081a1593",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            }
+          ],
+          "operatorToJoinChildren": "and"
+        }
+      ],
+      "operatorToJoinChildren": "or"
+    },
+    "recipientId": "0049e22a-b024-42bb-af22-c8ada9fb3d03",
+    "creates": [
+      "b9d874ef-b2e1-4bb5-9f5f-f9fb4f83e085"
+    ],
+    "terminates": [],
+    "comments": [],
+    "sourceSentences": []
+  },
+  {
+    "id": "3c4cc8f9-97b4-49d7-b672-18b23cd51a42",
+    "typeId": "act",
+    "label": "request subsidy (New regulation) new adjustment   landlords Authority (minister)",
+    "act": "request subsidy (New regulation) new adjustment   landlords Authority (minister)",
+    "actionId": "5ca03be4-aefe-4f4c-884b-c14c31ea8436",
+    "actorId": "135e958b-6cff-4804-a4a3-6859cd0352d2",
+    "objectId": "3a6ffe09-a1d9-426e-bd02-68a124d64d63",
+    "precondition": {
+      "isNegated": false,
+      "children": [
+        {
+          "isNegated": false,
+          "children": [
+            {
+              "frame": "76420496-5d20-4774-9cf0-6d2a347d8872",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            },
+            {
+              "frame": "a49ff0b8-c16e-4cc0-88bf-2a6b11f59c1f",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            }
+          ],
+          "operatorToJoinChildren": "and"
+        },
+        {
+          "isNegated": false,
+          "children": [
+            {
+              "frame": "fa2bbb4e-205e-4a55-916e-24dfe629f5ca",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            },
+            {
+              "frame": "7e41c6d6-4786-4e5b-8fad-04cf081a1593",
+              "isNegated": false,
+              "children": [],
+              "operatorToJoinChildren": null
+            }
+          ],
+          "operatorToJoinChildren": "and"
+        }
+      ],
+      "operatorToJoinChildren": "or"
+    },
+    "recipientId": "0049e22a-b024-42bb-af22-c8ada9fb3d03",
+    "creates": [
+      "b9d874ef-b2e1-4bb5-9f5f-f9fb4f83e085"
+    ],
+    "terminates": [],
+    "comments": [],
+    "sourceSentences": []
+  }
+]
