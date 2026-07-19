@@ -1,21 +1,5 @@
 [
   {
-    "id": "135e958b-6cff-4804-a4a3-6859cd0352d2",
-    "label": " landlords",
-    "fact": " landlords",
-    "typeId": "fact",
-    "subTypeIds": [
-      "agent"
-    ],
-    "comments": [],
-    "isComplex": true,
-    "subdivision": {
-      "isNegated": false,
-      "children": [],
-      "operatorToJoinChildren": null
-    }
-  },
-  {
     "id": "11775f00-2c8e-4fd4-813f-f105c489d3fa",
     "label": "€125,000 or more",
     "fact": "€125,000 or more",
@@ -195,7 +179,6 @@
     "label": "request subsidy (old regulation) old SVOH, the application  landlords Authority (minister)",
     "act": "request subsidy (old regulation) old SVOH, the application  landlords Authority (minister)",
     "actionId": "5ca03be4-aefe-4f4c-884b-c14c31ea8436",
-    "actorId": "135e958b-6cff-4804-a4a3-6859cd0352d2",
     "objectId": "95439428-e56b-4cf9-a982-1a19f86e2ef5",
     "precondition": {
       "isNegated": false,
@@ -253,7 +236,6 @@
     "label": "request subsidy (New regulation) new adjustment   landlords Authority (minister)",
     "act": "request subsidy (New regulation) new adjustment   landlords Authority (minister)",
     "actionId": "5ca03be4-aefe-4f4c-884b-c14c31ea8436",
-    "actorId": "135e958b-6cff-4804-a4a3-6859cd0352d2",
     "objectId": "3a6ffe09-a1d9-426e-bd02-68a124d64d63",
     "precondition": {
       "isNegated": false,
